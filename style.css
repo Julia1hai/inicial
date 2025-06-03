@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fundo{
+  position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+.hero {
+  background: url('https://i.imgur.com/Kg5A6zu.jpeg') no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  padding: 40px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 160px;
+  color: white;
+  letter-spacing: 30px;
+  word-spacing: 30px;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.search-container {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: black;
+  gap: 15px;
+}
+
+.search-container input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+}
+
+.search-container i {
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.map-container {
+  margin-top: 20px;
+}
+
+.map-container img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.setagps{
+  margin-top: 39px;
+}
